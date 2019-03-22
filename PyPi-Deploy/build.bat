@@ -1,7 +1,7 @@
 @echo off
 
 docker build ^
-        --tag travis-encrypt:0 ^
+        --tag pypi-deploy:0 ^
         --rm ^
         --compress ^
         .
